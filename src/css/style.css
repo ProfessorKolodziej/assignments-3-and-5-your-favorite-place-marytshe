@@ -1,11 +1,292 @@
-@media screen and (width >= 320px) {
-	#some-id {
-		color: red;
+@media all {
+	body { 
+		font-family: "Playfair Display", serif;
+		max-width: 100%;
+		min-height: auto;
+		font-size: 16px;
 	}
 }
 
-@media screen and (width >= 500px) {
-	#some-id {
-		color: red;
-	}
+.intro-banner {
+	max-height: 370px;
+}
+
+.overlay-text {
+	font-size: 5em;
+	position: relative;
+  	top: -300px;
+  	left: 50px;
+  	transform: translate(-50px, 0px);
+  	text-align: center;
+  	color: white;
+}
+
+.img-with-filter {
+	filter: brightness(60%);
+	width: 100%;
+	height: 351px;
+	object-fit: cover;
+	position: relative;
+}
+
+.why-paris {
+	font-size: 1.5em;
+	margin: 25px 25px;
+}
+.why-paris-pg {
+	font-size: 0.88em;
+	margin-bottom: 20px;
+}
+.why-paris-pg-2 {
+	font-size: 0.88em;
+	margin-bottom: 20px;
+}
+.why-paris-image {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center; 
+}
+
+.top-attractions {
+	margin-top: 50px;
+	list-style-position: inside;
+	list-style-type: decimal;
+}
+.top-attractions-title {
+	font-size: 3em;
+	text-align: center;
+	margin-top: 10px;
+	list-style-position: inside;
+	list-style-type: decimal;
+	margin-top: 10px;
+	margin: 25px 25px; 
+	color:#CA7563;
+}
+
+.eiffel-tower-title {
+	color:#CA7563;
+	margin-top: 10px;
+	font-size: 32px;
+}
+.eiffel-tower-image {
+	display: flex;
+	width: 100%;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	object-fit: cover;
+	position: relative;
+
+}
+.eiffel-tower-pg {
+	font-size: 20px;
+	color: black
+
+}
+.the-louvre-title {
+	color:#CA7563;
+	margin-top: 10px;
+	font-size: 2em;
+}
+.the-louvre-image {
+	display: flex;
+	width: 100%;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	object-fit: cover;
+	position: relative;
+}
+.the-louvre-pg {
+	font-size: 20px;
+	color: black
+}
+
+.arcde-tri-title {
+	color:#CA7563;
+	margin-top: 10px;
+	font-size: 2em;
+}
+.arcde-tri-image {
+	display: flex;
+	width: 100%;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	object-fit: cover;
+	position: relative;
+}
+.arcde-tri-pg {
+	font-size: 20px;
+	color: black;
+}
+
+.sacre-coeur-title {
+	color:#CA7563;
+	margin-top: 10px;
+	font-size: 2em;
+}
+.sacre-coeur-image {
+	display: flex;
+	width: 100%;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	object-fit: cover;
+	position: relative;
+}
+.sacre-coeur-pg {
+	font-size: 20px;
+	color: black;
+}
+
+.musee-dorsay-title {
+	color:#CA7563;
+	margin-top: 10px;
+	font-size: 2em;
+}
+.musee-dorsay-image {
+	display: flex;
+	width: 100%;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	object-fit: cover;
+	position: relative;
+}
+.musee-dorsay-pg {
+	font-size: 20px;
+	color: black;
+}
+
+.best-cuisine {
+	margin-top: 10px;
+	list-style-position: inside;
+	list-style-type: decimal;
+	margin-top: 10px;
+	margin: 25px 25px; 
+}
+
+.best-cuisine-title {
+	font-size: 3em;
+	text-align: center;
+	margin-top: 10px;
+	list-style-position: inside;
+	list-style-type: decimal;
+	margin-top: 10px;
+	margin: 25px 25px; 
+	color:#CA7563;
+}
+
+.holly-belly-title {
+	color:#CA7563;
+	margin-top: 10px;
+	font-size: 2em;
+	background-color: #A9A9A9;
+	color: #FFFFF0;
+	padding: 3px;
+}
+
+.holly-belly-image {
+	width: 25%;
+	height: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	background-color: white;
+	
+}
+
+.holly-belly-pg {
+	font-size: 1em;
+}
+
+.caractere-de-cochon-title {
+	color:#CA7563;
+	margin-top: 10px;
+	font-size: 2em;
+	background-color: #A9A9A9;
+	color: #FFFFF0;
+	padding: 3px;
+}
+
+.caractere-de-cochon-image {
+	width: 25%;
+	height: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.caractere-de-cochon-pg {
+	font-size: 1em;
+}
+
+.ober-mamma-title {
+	color:#CA7563;
+	margin-top: 10px;
+	font-size: 2em;
+	background-color: #A9A9A9;
+	color: #FFFFF0;
+	padding: 3px;
+}
+
+.ober-mamma-image {
+	width: 25%;
+	height: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.ober-mamma-pg {
+	font-size: 1em;
+}
+
+.travel-tips-title {
+	color: #CA7563;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+}
+.travel-tips-pg {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+    list-style-position:inside;
+    list-style-type: disc;
+    font-size: 1.5em;
+    text-align: left; 
+	align-content: center;
+}
+
+.tourists-pic {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center; 
 }
